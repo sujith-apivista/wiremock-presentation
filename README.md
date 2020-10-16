@@ -1,6 +1,6 @@
 # Service Virtualization for Microservices Development
 
-## A Typical Microservices Architecture 
+## An Example Microservices Architecture 
 
 ## Challenges of developing and testing microservices 
   * Modifying state 
@@ -23,10 +23,23 @@
 ### Overview 
   * Official site: https://www.wiremock.org
   * GitHub: https://github.com/tomakehurst/wiremock
-  * Download JAR and run: `java -jar wiremock-jre8-standalone-2.27.2.jar`
-  * Command line options: `--port`, `--https-port`, `--verbose`
-  * Access: http://localhost:8080/__admin
-  * Docker: https://github.com/rodolpheche/wiremock-docker
+  * Usage as a standalone component
+    * Download JAR
+        * Run: `java -jar wiremock-jre8-standalone-2.27.2.jar`
+        * Command line options: `--port`, `--https-port`, `--verbose` and many more
+        * Access: http://localhost:8080/__admin
+    * Docker: https://github.com/rodolpheche/wiremock-docker
+
+### Stubbing
+  * Using the API
+    * Specs: http://wiremock.org/docs/api/
+    * [Examples](Stub-with-API.md)
+  * Using flat files
+    * [Examples](Stub-with-Files.md)
+
+### Request Matching
+
+### Response Templating
 
 ### Recording & playback 
 
