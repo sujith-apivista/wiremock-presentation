@@ -1,6 +1,7 @@
 # Service Virtualization for Microservices Development
 
 ## An Example Microservices Architecture 
+![Diagram of a microservice architecture](micro-arch.svg)
 
 ## Challenges of developing and testing microservices 
   * Modifying state 
@@ -34,8 +35,10 @@
   * Using the API
     * Specs: http://wiremock.org/docs/api/
     * [Examples](Stub-with-API.md)
-  * Using flat files
+  * Using JSON files
     * [Examples](Stub-with-Files.md)
+
+## To be continued .....
 
 ### Request Matching
 
@@ -43,6 +46,6 @@
 
 ### Recording & playback 
 
- 
-
-### JUnit Integration 
+### Programmatic Control through Fluent API
+  * JUnit 4 integration
+  * Java/JVM
